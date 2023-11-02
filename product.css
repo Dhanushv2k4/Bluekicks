@@ -1,0 +1,43 @@
+.heading{
+    margin: 20px;
+    margin-left: 30px;
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+.container{
+    margin: 20px;
+    display: flex;
+
+    
+}
+
+.product1{
+    margin: 20px;
+    padding: 15px;
+    border: 5px solid #cecee1;
+    border-radius: 15px;
+    width: 225px;
+}
+.product1 img{
+    width: 220px;
+    height: 270px;
+    border-radius: 15px;
+    box-shadow: 8px 9px #72ccf6;
+    margin-bottom: 10px;
+}
+.product1 span{
+    font-size: 19px;
+    font-weight: lighter;
+    font-family: 'Anton', sans-serif;
+}
+.product1 p{
+    font-size: 15px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.product1:hover{
+    box-shadow: 10px 10px rgb(13, 13, 39);
+    transform: scale(1.01);
+    margin: 10px;
+}

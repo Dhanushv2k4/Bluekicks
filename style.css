@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(111 111 201);
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(166, 166, 234);
+    height: 65px;
+    border-radius: 15px;
+}
+
+.navbar ul {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 130px;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    padding: 0px 32px;
+    text-decoration: none;
+}
+.navbar ul li a {
+    /* list-style: none;
+    padding: 0px 32px; */
+    text-decoration: none;
+}
+
+.logo {
+    width: 90px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+}
+
+.content p{
+    display: inline;
+}
+
+.content img {
+    width: 400px;
+    height: 400px;
+    
+}
+
+.content h1 {
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    line-height: 11;
+}
+.name{
+    color: lightblue;
+}
+.discription {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 25px;
+    margin: 20px;
+    padding: 5px;
+}
+footer{
+    text-align: center;
+    background-color:rgb(166, 166, 234); 
+    border-radius: 15px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.parent{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+.left h1{
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    font-size: 35px;
+}
+.left{
+    margin: 20px;
+    font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.right{
+    margin: 10px;
+    align-items: center;
+    width: 417px;
+}
+.logo2{
+    width: 170px;
+    height: 185px;
+    border-radius: 50px;
+    margin-right: 25px;
+}
+.extracontent{
+    font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
+    margin: 20px;
+
+}
